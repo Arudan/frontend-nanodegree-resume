@@ -1,7 +1,8 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
 }
 
 .clearfix {
@@ -15,17 +16,13 @@
 
 h1 {
   font-size: 40px;
-  color: #2EB82E;
-  line-height: 48px;
-  display: inline;
+  color: #146214;
 }
 
 h2 {
-  font-weight: bold;
   font-size: 24px;
   color: #999999;
-  line-height: 29px;
-  padding: 10px;
+  padding: 0px;
 }
 
 h3 {
@@ -48,6 +45,9 @@ h2, h3, h4, h5 {
   padding-right: 5%;
 }
 
+.role {
+  margin-bottom: 24px;
+}
 
 .date-text {
   font-style: italic;
@@ -73,7 +73,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #146214;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -87,28 +87,19 @@ a {
 }
 
 #skillsH3 {
-  color: #2EB82E;
+  color: #146214;
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
-}
-
-.orange-text {
-  color: #F5AE23;
-}
-
 .green {
-  color: #2EB82E;
+  background-color: #146214;
 }
 
 .green-text {
-  color: #2EB82E;
+  color: #146214;
 }
 
 .white-text {
-  font-weight: bold;
   color: #FFFFFF;
 }
 
@@ -119,12 +110,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: #999999;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #999999;
 }
 
 .flex-box {
@@ -220,4 +211,12 @@ span {
   .biopic {
     display: block;
   }
+}
+
+paper-card {
+  margin-bottom: 15px;
+}
+
+.card-content{
+  padding: 5% 0 5px!important;
 }
